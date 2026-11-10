@@ -1,0 +1,22 @@
+# Local build output
+/dist/
+/build/
+/_output/
+*.spec
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+secrets/
+private/
+user-data/
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
